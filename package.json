@@ -1,0 +1,31 @@
+{
+  "name": "openbot-pactcheck",
+  "version": "0.1.0",
+  "description": "Check an agent transcript against the rules in AGENTS.md or CLAUDE.md: which paths it edited, which commands it ran.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "pactcheck": "./src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo/run-demo.mjs"
+  },
+  "keywords": [
+    "agents-md",
+    "claude-code",
+    "codex",
+    "agent-reliability",
+    "transcript",
+    "audit",
+    "cli"
+  ]
+}
